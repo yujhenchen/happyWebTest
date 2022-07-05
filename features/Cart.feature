@@ -20,4 +20,4 @@ Feature: add to cart and place order
         And input Year
         And click Purchase
         Then should see confirm modal
-        And the the user information on hte modal is correct
+        And the the user information on the modal is correct
