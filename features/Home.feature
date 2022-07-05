@@ -7,7 +7,7 @@ Feature: Page elements
     When click category <category>
     Then pagination products match the selected category
 
-    Examples: 
+    Examples: product category
       | category |
       | Phones   |
       | Laptops  |
