@@ -11,3 +11,7 @@ def step_impl(context, headerNav, page):
 @when('wait for "{waitSecs}" seconds')
 def step_impl(context, waitSecs):
     pass
+
+@when('click "{headerNav}" on header to navigate to "{page}" page')
+def step_impl(context, headerNav, page):
+    pass
